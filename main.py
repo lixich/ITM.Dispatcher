@@ -5,7 +5,7 @@ import requests
 
 app = Flask(__name__)
 
-url_set = ['http://aachusovlyankin.pythonanywhere.com/', 'http://lixichcska.pythonanywhere.com/']
+url_set = ['http://lixichcska.pythonanywhere.com/', 'http://lixichamkar.pythonanywhere.com/']
 las_seconds = 60
 
 @app.route('/<path:path>', methods = ['GET', 'PUT', 'POST', 'DELETE'])
